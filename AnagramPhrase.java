@@ -26,7 +26,6 @@ public class AnagramPhrase {
             System.exit(1);
         }
         dict = buildDictionary(args[0]);
-//        phrase = new ArrayList<String>(); //TODO: put this in the method where it belongs ------DONE-----
 
         // Accept a name from user
         System.out.print("Enter a phrase: ");
@@ -244,14 +243,6 @@ public class AnagramPhrase {
      * @return the length of the string (not including spaces)
      */
     public static int getPhraseLen(String word) {
-
-        // This code is not needed
-//        int length = word.length();
-//        for (int i = 0; i < word.length(); ++i) {
-//            if (Character.isWhitespace(word.charAt(i))) {
-//                length--;
-//            }
-//        }
         return word.length();
     }
 
